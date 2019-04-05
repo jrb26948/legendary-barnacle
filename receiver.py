@@ -34,6 +34,7 @@ while True:
     cv2.imshow('Receiving', frame)
     framecounter+=1
     print("Frames received: ", framecounter)
+    
     #End when 'q' is pressed
     if cv2.waitKey(1) & 0xFF == ord ('q'):
         break
