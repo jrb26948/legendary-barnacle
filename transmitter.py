@@ -4,7 +4,7 @@ import cv2
 import socket
 
 #Set IP and Port
-IP = "192.168.0.3"
+IP = ""
 PORT = 5005
 
 #Initialize webcam with capture resolution
